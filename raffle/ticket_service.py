@@ -127,7 +127,12 @@ def check_draw():
             'event_id': event['event_id']
         },
         {
-            'draw_time': next_draw_time
+            'draw_time': next_draw_time,
+            '$set': {
+                'participants': []
+            }
+        },{
+            'multi': True
         })
     
     database.winners.insert_many(winner_list)
