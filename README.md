@@ -55,8 +55,8 @@ Below are the list of APIS
 
   * **Code:** 200 <br />
     **Content:** 
-    ```json
-   {
+```json
+{
    "_id":{
       "$oid":"608ecf69460476225dc97911"
    },
@@ -95,7 +95,7 @@ Below are the list of APIS
       }
    ]
 }
-    ```
+```
  
 * **Error Response:**
   Multiple error responses please check a API code.
