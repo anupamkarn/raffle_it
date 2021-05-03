@@ -41,7 +41,7 @@ Below are the list of APIS
 
   get_ticket(username)
   
-  ticket/<username>?eventID=1
+  ticket/username?eventID=1
 
 * **Method:**
 
