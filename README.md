@@ -40,6 +40,7 @@ Below are the list of APIS
 * **URL**
 
   get_ticket(username)
+  
   ticket/<username>?eventID=1
 
 * **Method:**
@@ -118,6 +119,7 @@ Below are the list of APIS
  * **URL**
 
   get_winners()
+  
   ticket/winners
 
 * **Method:**
@@ -133,6 +135,7 @@ Below are the list of APIS
 * **URL**
 
   check_draw()
+  
   ticket/update_events
 
 * **Method:**
