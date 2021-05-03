@@ -56,12 +56,45 @@ Below are the list of APIS
   * **Code:** 200 <br />
     **Content:** 
     ```json
-    {"_id": {"$oid": "608ecf69460476225dc97911"}, "name": "Daily Lucky draw event",
-"event_id": "1", "time": "120000", "start_date": {"$date": 1489732140000},
-"frequency": "D", "ticket_list": ["1", "5", "9", "3", "7", "8"],
-"max_participants": "10", "participants": [{"name": "alice", "ticket_no": "2"},
-{"name": "bob", "ticket_no": "4"}, {"name": "Alex", "ticket_no": "6"}, {"name":
-"Anupam", "ticket_no": "10"}]}
+   {
+   "_id":{
+      "$oid":"608ecf69460476225dc97911"
+   },
+   "name":"Daily Lucky draw event",
+   "event_id":"1",
+   "time":"120000",
+   "start_date":{
+      "$date":1489732140000
+   },
+   "frequency":"D",
+   "ticket_list":[
+      "1",
+      "5",
+      "9",
+      "3",
+      "7",
+      "8"
+   ],
+   "max_participants":"10",
+   "participants":[
+      {
+         "name":"alice",
+         "ticket_no":"2"
+      },
+      {
+         "name":"bob",
+         "ticket_no":"4"
+      },
+      {
+         "name":"Alex",
+         "ticket_no":"6"
+      },
+      {
+         "name":"Anupam",
+         "ticket_no":"10"
+      }
+   ]
+}
     ```
  
 * **Error Response:**
